@@ -18,7 +18,6 @@ body {
 
 header {
   background-color: rgba(17, 17, 17, 0.8);
-  backdrop-filter: blur(6px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -109,11 +108,12 @@ nav a {
 .grid div {
   width: 13.75rem;
 }
+
 .grid-noticia {
- display: flex;
- flex-direction: column;
- align-items: center;
- padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
 }
 
 .card2 {
@@ -125,7 +125,7 @@ nav a {
   border: 2px solid #ff4655;
   border-radius: 8px;
   text-align: left;
-  color: #cccccc;  
+  color: #cccccc;
 }
 
 .card {
@@ -171,7 +171,6 @@ nav a {
   border: 5px solid #ff4655;
   width: 280px;
   height: 280px;
-  object-fit: cover;
 }
 
 .contato {
@@ -211,7 +210,7 @@ nav a {
   cursor: pointer;
   font-weight: bold;
   font-size: 1.5rem;
-  
+
 
 }
 
@@ -229,5 +228,8 @@ footer {
 
 iframe {
   width: 100%;
-  height: 100%;
+  height: auto;
+}
+iframe {
+  aspect-ratio: 16 / 9;
 }
